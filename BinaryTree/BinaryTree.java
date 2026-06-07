@@ -1,17 +1,6 @@
 package BinaryTree;
-import com.sun.source.tree.Tree;
 
 import java.util.*;
-class TreeNode{
-    int data;
-    TreeNode left;
-    TreeNode right;
-    TreeNode(int data){
-        this.data=data;
-        this.left=null;
-        this.right=null;
-    }
-}
 public class BinaryTree {
     public static void inOrder(TreeNode root){
         if(root==null) return;
